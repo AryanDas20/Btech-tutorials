@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 300px;
+            width: 300px;
+            border: 6px solid black;
+            
+           
+        }
+        img:hover {
+            height: 300px;
+            width: 300px;
+            border: 6px dotted rgb(205, 63, 63);
+        }
+        body{
+            color:gray;
+            background-color: aqua;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding:20px
+        }
+        a{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            font-size: 20px;
+             position: relative;
+  animation: mymove3 3s infinite;
+        }
+        a:hover{
+            text-decoration: line-through;
+            color:red;
+            font-size: 20px;
+        }
+        mark{
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #head1{
+            background-color:antiquewhite;
+            color:blueviolet;
+            font-size:30px;
+            display: flex;
+            margin:0%;
+            padding:10px;
+        }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+      position: relative;
+  animation: mymove1 1s infinite;
+}
+@keyframes mymove1 {
+  10% {background-color: red;}
+  20% {background-color: yellow;}
+   30% {background-color: rgb(0, 255, 157);}
+  40% {background-color: rgb(0, 166, 255);}
+   50% {background-color: red;}
+  60% {background-color: rgb(255, 0, 221);}
+   70% {background-color: red;}
+  80% {background-color: rgb(255, 0, 60);}
+   90% {background-color: rgb(191, 255, 0);}
+  100% {background-color: rgb(0, 255, 191);}
+}
+circle:hover{
+   fill:orange;
+    background-color: red;
+}
+circle{
+    fill: yellow;
+    padding:40px;
+    margin:40px;
+
+}
+svg{
+     position: relative;
+  animation: mymove 3s infinite;
+}
+@keyframes mymove {
+  from {top: -500px;}
+  to {top: 200px;}
+}
+@keyframes mymove3 {
+ 10% {color: red;}
+  50% {color: yellow;}
+   90% {color: rgb(0, 255, 157);}
+}
+h1{
+     position: relative;
+  animation: mymove3 3s infinite;
+}
+    </style>
+</head>
+<body>
+    <header id="head1">
+        <h1>PORTFOLIO</h1>
+    </header>
+    <p>My name is aryan das. i am pursuing btech cse at Lpu</p>
+    <figure>
+        <figurecaption>MY Image</figurecaption>
+        <br>
+        <img src="aryan.png">
+    </figure>
+    <a href="lec1.html">Visit my college website</a>
+    <mark>My gaol is to complete my btech degree</mark>
+ <svg width="120" height="120">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4"  />
+  <text x ="60" y="68" text-anchor="middle" font-size="32" fill="black">A</text> 
+</svg>
+</svg>
+<h1>hq</h1>
+</body>
+</html>
